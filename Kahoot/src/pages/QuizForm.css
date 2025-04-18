@@ -1,0 +1,67 @@
+.Question-container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0px 1px;
+}
+
+.logo-input {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    color: purple;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.kahoot-title {
+    width: 280px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.exit-button {
+    background-color: lightgray;
+    color: black;
+}
+
+.save-button {
+    background-color: blue;
+    color: white;
+}
